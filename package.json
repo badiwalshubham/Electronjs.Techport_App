@@ -1,15 +1,21 @@
 {
-  "name": "electronjs",
+  "name": "Techportfolio",
   "version": "1.0.0",
-  "description": "Desktop App",
+  "description": "Tech driven!",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
-    
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "build": "electron-packager ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
     "electron": "^30.0.6"
+  },
+  "dependencies": {
+    "electron-packager": "^17.1.2"
   }
 }
